@@ -1,0 +1,17 @@
+/* Ajoutez des styles pour les cartes et le plateau ici */
+.memory-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+}
+
+.memory-card {
+    width: 100px;
+    height: 150px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
